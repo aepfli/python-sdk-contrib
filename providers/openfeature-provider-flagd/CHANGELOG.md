@@ -1,5 +1,26 @@
 # Changelog
 
+## [0.1.6](https://github.com/open-feature/python-sdk-contrib/compare/openfeature-provider-flagd/v0.1.5...openfeature-provider-flagd/v0.1.6) (2024-11-22)
+
+
+### 🐛 Bug Fixes
+
+* **flagd:** fix semver version parsing to allow "v" prefix([#106](https://github.com/open-feature/python-sdk-contrib/issues/106)) ([#107](https://github.com/open-feature/python-sdk-contrib/issues/107)) ([93fee85](https://github.com/open-feature/python-sdk-contrib/commit/93fee8593c8c278dff6371b68b21366bea9d5f01))
+* **flagd:** improve targeting and fix fractional issue([#92](https://github.com/open-feature/python-sdk-contrib/issues/92)) ([#105](https://github.com/open-feature/python-sdk-contrib/issues/105)) ([eb31b83](https://github.com/open-feature/python-sdk-contrib/commit/eb31b8324662df113cd27205eb12f09a1cf30b06))
+* object resolution for RPC and Object types, add test-harness ([ca76802](https://github.com/open-feature/python-sdk-contrib/commit/ca7680242085fb9b77d9b0844147468544010074))
+* object resolution for RPC and Object types, add test-harness. ([#103](https://github.com/open-feature/python-sdk-contrib/issues/103)) ([ca76802](https://github.com/open-feature/python-sdk-contrib/commit/ca7680242085fb9b77d9b0844147468544010074))
+* remove modifications to license files ([#81](https://github.com/open-feature/python-sdk-contrib/issues/81)) ([a23f61e](https://github.com/open-feature/python-sdk-contrib/commit/a23f61e1c14c70e45a4bce4a014d5599813f1d28))
+
+
+### ✨ New Features
+
+* Change fractional custom op from percentage-based to relative weighting. ([#91](https://github.com/open-feature/python-sdk-contrib/issues/91)) ([7b34822](https://github.com/open-feature/python-sdk-contrib/commit/7b34822afdabfb89e991ae81a91681cafcbdfbd3))
+
+
+### 🔄 Refactoring
+
+* replace typing_extensions import ([#98](https://github.com/open-feature/python-sdk-contrib/issues/98)) ([adb8a69](https://github.com/open-feature/python-sdk-contrib/commit/adb8a69d9ed1b0b03cb96d924b2269d973822794))
+
 ## [0.1.5](https://github.com/open-feature/python-sdk-contrib/compare/openfeature-provider-flagd/v0.1.4...openfeature-provider-flagd/v0.1.5) (2024-04-11)
 
 
